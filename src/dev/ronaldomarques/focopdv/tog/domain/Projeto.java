@@ -1,4 +1,4 @@
-package dev.ronaldomarques.focopdv.tog;
+package dev.ronaldomarques.focopdv.tog.domain;
 
 import java.util.List;
 

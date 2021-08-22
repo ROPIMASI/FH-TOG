@@ -10,12 +10,12 @@ public final class Tog {
 
 		System.out.println("\ninício\n");
 
-		String projectFile = "resources\\projetos.csv";
-		String dealerFile = "resources\\distribuidores.csv";
-		String costumerFile = "resources\\clientes.csv";
-		String product1File = "resources\\produtos1.csv";
-		String product2File = "resources\\produtos2.csv";
-//		String file = "C:\\Users\\DESENVOLVIMENTO04\\Desktop\\projetos.csv";
+		String projectFile = "resources\\projetos.tcsv";
+		String dealerFile = "resources\\distribuidores.tcsv";
+		String costumerFile = "resources\\clientes.tcsv";
+		String product1File = "resources\\produtos1.tcsv";
+		String product2File = "resources\\produtos2.tcsv";
+//		String file = "C:\\Users\\DESENVOLVIMENTO04\\Desktop\\projetos.tcsv";
 		BufferedReader brCsvContent = null;
 		String line = "";
 		String fieldSeparator = ";";

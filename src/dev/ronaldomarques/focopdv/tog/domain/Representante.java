@@ -1,9 +1,10 @@
-package dev.ronaldomarques.focopdv.tog;
+package dev.ronaldomarques.focopdv.tog.domain;
 
 import java.util.List;
 
 public class Representante {
 	private String nome;
+	private List<Cliente> clientes;
 	private List<Laboratorio> laboratorios;
 
 	public String getNome() {
@@ -12,6 +13,14 @@ public class Representante {
 
 	public void setNome(String nome) {
 		this.nome = nome;
+	}
+
+	public List<Cliente> getClientes() {
+		return clientes;
+	}
+
+	public void setClientes(List<Cliente> clientes) {
+		this.clientes = clientes;
 	}
 
 	public List<Laboratorio> getLaboratorios() {
