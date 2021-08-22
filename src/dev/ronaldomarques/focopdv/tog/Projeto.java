@@ -3,31 +3,32 @@ package dev.ronaldomarques.focopdv.tog;
 import java.util.List;
 
 public class Projeto {
-	private String representante;
-	private List<String> laboratorios;
-	private List<String> distribuidores;
 
-	public String getRepresentante() {
+	private String nome;
+	private Representante representante;
+	private List<Distribuidor> distribuidores;
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public Representante getRepresentante() {
 		return representante;
 	}
 
-	public void setRepresentante(String representante) {
+	public void setRepresentante(Representante representante) {
 		this.representante = representante;
 	}
 
-	public List<String> getLaboratorios() {
-		return laboratorios;
-	}
-
-	public void setLaboratorios(List<String> laboratorios) {
-		this.laboratorios = laboratorios;
-	}
-
-	public List<String> getDistribuidores() {
+	public List<Distribuidor> getDistribuidores() {
 		return distribuidores;
 	}
 
-	public void setDistribuidores(List<String> distribuidores) {
+	public void setDistribuidores(List<Distribuidor> distribuidores) {
 		this.distribuidores = distribuidores;
 	}
 
